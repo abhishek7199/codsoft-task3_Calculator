@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #464f5e;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3c4454;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    color: #ebf4ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.special {
+    color: #54c7b0 !important;
+    font-weight: 700;
+}
+
+.button {
+    width: 70px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    background-color: #3c4454;
+    color: #ebf4ff;
+    border: none;
+    outline: none;
+    box-shadow: 1px 5px 8px 3px #464f5e;
+    border-radius: 8px;
+    font-family: "Numans", sans-serif;
+
+}
+
+.input {
+    width: 305px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #3c4454;
+    color: #ebf4ff;
+    box-shadow: 1px 1px 3px 2px #464f5e;
+    font-family: "Numans", sans-serif;
+}
+
+@media screen and (max-width:450px) {
+    .header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
